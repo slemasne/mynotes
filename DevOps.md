@@ -4,5 +4,7 @@ date: 2020-10-22T13:00
 
 # DevOps
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+The principle and practise of agile planning, continuous integration, continuous delivery, and monitoring of applications.
+
+
 
