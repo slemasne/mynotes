@@ -2,7 +2,7 @@
 date: 2020-10-22T13:09
 ---
 
-# ContinuousIntegration
+# Continuous Integration
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+* Definition - this is the process of automating the building and testing of code each time a developer commits a change to source control. 
 
