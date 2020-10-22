@@ -6,7 +6,7 @@ date: 2020-10-22T16:10
 
 ### Languages
 
-* C#
+* [[csharp]]
 * Python
 * Bash
 
