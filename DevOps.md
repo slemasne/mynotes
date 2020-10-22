@@ -14,3 +14,6 @@ The set of practises which combines software development ("Dev") and IT operatio
 
 * Travis
 * Concourse
+
+
+[[[z:zettels?tag=DevOps]]]
