@@ -40,3 +40,24 @@ int [] numbers = new int[];
 List<string> Food = new List<string>();
 ```
 * In general it is better to use Lists, as List are more easily sorted, searched, and manipulated.
+
+## What is LINQ?
+
+LINQ or Language Integrated Query is a query syntax in C# to query data from various sources and formats.
+
+Example:
+
+```
+// Use LINQ to find teenager students
+Student[] teenAgerStudents = studentArray.Where(s => s.age > 12 && s.age < 20).ToArray();
+```
+
+### Advantages of LINQ
+
+1. Familiar languge
+2. Less coding
+3. More readable code
+4. Standardize the way of querying multiple data sources
+
+
+
