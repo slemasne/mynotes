@@ -60,4 +60,13 @@ Student[] teenAgerStudents = studentArray.Where(s => s.age > 12 && s.age < 20).T
 4. Standardize the way of querying multiple data sources
 
 
+## C# versus Python
+
+* Python is __interpreted__ while C# is __compiled__
+* Python is __dynamically__ typed while C# is __statically__ typed. This means that Python figures out your variable type at runtime. For C# all types must be known before runtime. 
+* Python and C# are both open-source. 
+* C# program files are saved with the `.cs` extension while Python files are saved with the `.py` extension.
+
+
+
 
