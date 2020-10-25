@@ -4,6 +4,8 @@ date: 2020-10-22T16:13
 
 # C#
 
+A random selection of C# notes:
+
 ## Access modifiers
 
 
@@ -66,6 +68,10 @@ Student[] teenAgerStudents = studentArray.Where(s => s.age > 12 && s.age < 20).T
 * Python is __dynamically__ typed while C# is __statically__ typed. This means that Python figures out your variable type at runtime. For C# all types must be known before runtime. 
 * Python and C# are both open-source. 
 * C# program files are saved with the `.cs` extension while Python files are saved with the `.py` extension.
+
+## Operators
+
+* The `new` operators creates a new instance of a type.
 
 
 
