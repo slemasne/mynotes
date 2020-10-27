@@ -73,6 +73,19 @@ Student[] teenAgerStudents = studentArray.Where(s => s.age > 12 && s.age < 20).T
 
 * The `new` operators creates a new instance of a type.
 
+## Enums
+
+An `enum` is a special class which represents a group of constants (read only variables)
+
+
+```
+enum Level 
+{
+  Low,
+  Medium,
+  High
+}
+```
 
 
 
