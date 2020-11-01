@@ -6,13 +6,14 @@ date: 2020-10-22T16:13
 
 A random selection of C# notes:
 
-## Access modifiers
+## Keywords defined
 
 
 * `public` - the code is accessible for all classes.
 * `private` - the code is only accessible within the same class.
 * `var` - the complier will determine the type.
-
+* `void` - used to declare that the function does not return any values.
+* `new` - this operator is used to create an instance of a class.
 
 ## Arrays versus Lists
 
@@ -87,5 +88,31 @@ enum Level
 }
 ```
 
+## Naming conventions
+
+* Use PascalCase for class names
+
+## Class members
+
+An `instance` member is accessible from an object. For example:
+
+```
+var person = new Person();
+person.Introduce();
+```
+
+A `static` member is accessible from a class. For example:
+
+```
+Console.WriteLine();
+```
+
+Here, `Console` is the class and `WriteLine` is that static method. You call the method from the class, not from an object.
+
+## Why use static members?
+
+We use static members to represnet concepts that are singleton. 
+
+> Singleton - this is a concept where we restrict the initiation of a class to one instance only
 
 
