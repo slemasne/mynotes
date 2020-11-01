@@ -8,4 +8,5 @@ This page documents my notes and learning:
 
 * [[[DevOps]]]
 * [[[Coding languages]]]
+* [[[Glossary]]]
 
