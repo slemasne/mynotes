@@ -115,4 +115,11 @@ We use static members to represent concepts that are singleton.
 
 > Singleton - this is a concept where we restrict the initiation of a class to one instance only
 
+## Constructor
+
+* A constructor is a special method which is used to initialize objects.
+* A constructor name must match a class name.
+* It cannot have a return type (like `int` or `void`)
+* The constructor is called when the object is created.
+* All classes have constructors by default. If you do not define one, then C# creates one for you. However that means you cannot set initial values for fields.
 
