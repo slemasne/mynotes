@@ -111,7 +111,7 @@ Here, `Console` is the class and `WriteLine` is that static method. You call the
 
 ## Why use static members?
 
-We use static members to represnet concepts that are singleton. 
+We use static members to represent concepts that are singleton. 
 
 > Singleton - this is a concept where we restrict the initiation of a class to one instance only
 
