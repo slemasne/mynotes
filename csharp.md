@@ -91,6 +91,7 @@ enum Level
 ## Naming conventions
 
 * Use PascalCase for class names
+* private fields should have an `-` prefix with camelCase `_name`
 
 ## Class members
 
@@ -122,4 +123,8 @@ We use static members to represent concepts that are singleton.
 * It cannot have a return type (like `int` or `void`)
 * The constructor is called when the object is created.
 * All classes have constructors by default. If you do not define one, then C# creates one for you. However that means you cannot set initial values for fields.
+
+## Encapsulation
+
+> Encapsulation - this is the bundling of data along with the methods which operate on that data. It is used to hide values inside a class preventing direct access by unauthorised parties.
 
